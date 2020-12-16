@@ -1,0 +1,17 @@
+.header-section {
+  flex: 1 1 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  h1 {
+    margin-bottom: 3rem;
+    font-size: 5.3rem;
+    line-height: 1.1;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 1.7rem;
+    width: 90%;
+  }
+}

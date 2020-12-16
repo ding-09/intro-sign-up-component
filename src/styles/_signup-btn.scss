@@ -1,0 +1,25 @@
+.signup-btn {
+  background: $blue-accent;
+  color: rgb(245, 245, 245);
+  font-weight: bolder;
+  font-size: 1.7rem;
+  width: 90%;
+  height: 6.5rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 7px 1px rgba(28, 26, 26, 0.2);
+  span {
+    font-weight: lighter;
+    font-size: 1.6rem;
+    color: rgb(235, 235, 235);
+  }
+  &:active {
+    transform: translateY(10%);
+    box-shadow: none;
+  }
+}
+
